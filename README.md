@@ -1,3 +1,5 @@
+> [!IMPORTANT]
+> This project is just a little test and not finished in any way
 # Content v2 Minimal Starter
 
 Look at the [Content documentation](https://content.nuxt.com/) to learn more.
