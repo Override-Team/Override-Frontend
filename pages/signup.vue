@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Signup from "~/components/app/SignupWindow.vue";
+import SignupWindow from "~/components/app/SignupWindow.vue";
 </script>
 
 <template>
   <div data-aos="fade-up">
-    <Signup />
+    <SignupWindow />
   </div>
 </template>

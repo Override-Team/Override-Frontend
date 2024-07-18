@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -12,6 +11,11 @@ export default defineNuxtConfig({
     "nuxt-zod-i18n",
     "@nuxtjs/i18n"
   ],
+
+  ui: {
+    safelistColors: ['purple']
+  },
+
   routeRules: {
     '/': { prerender: true },
   },
