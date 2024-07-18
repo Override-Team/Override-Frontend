@@ -1,0 +1,11 @@
+h1 {
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: Calibri, serif;
+    font-weight: lighter;
+}
