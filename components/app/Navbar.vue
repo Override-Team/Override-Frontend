@@ -13,7 +13,7 @@ const setColorTheme = (theme: Theme) => {
     <UContainer class="flex items-center py-4 gap-2 lg:gap-4">
       <Brand />
       <div class="flex ml-auto items-center lg:gap-4">
-        <UToggle v-model="selected" on-icon="i-heroicons-moon-solid"  @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')"/>
+        <UToggle v-model="selected" on-icon="i-heroicons-moon-solid" off-icon="i-heroicons-sun-solid"  @click="setColorTheme($colorMode.preference == 'dark' ? 'light' : 'dark')"/>
         <NuxtLink to="/signup" class="block py-2 px-4 text-white font-medium bg-primary-600 duration-150 hover:bg-primary-500 active:bg-primary-700 rounded-lg shadow-lg hover:shadow-none">
           Get Started
         </NuxtLink>
@@ -21,3 +21,13 @@ const setColorTheme = (theme: Theme) => {
     </UContainer>
   </header>
 </template>
+
+<style>
+p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+</style>

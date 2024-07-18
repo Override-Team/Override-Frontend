@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import 'assets/css/home.css'
 </script>
 
 <template>
@@ -10,7 +9,20 @@ import 'assets/css/home.css'
           Join the community now
         </h1>
       </div>
-      <p>Upload your projects easy and fast</p>
+      <p class="dark: text-white">Upload your projects easy and fast</p>
+
+      <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8" data-aos="fade-up">
+        <index-cards />
+      </div>
     </div>
   </section>
 </template>
+
+<style>
+h1 {
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+</style>

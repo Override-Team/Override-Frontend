@@ -2,5 +2,7 @@
 </script>
 
 <template>
-  <NuxtLink to="/"><p>Override</p></NuxtLink>
+  <div>
+
+  </div>
 </template>
