@@ -1,63 +1,9 @@
 <script setup lang="ts">
-import { z } from 'zod'
-import type { FormSubmitEvent } from '#ui/types'
-
-const schema = z.object({
-  email: z.string().email('Invalid email'),
-  password: z.string().min(8, 'Must be at least 8 characters'),
-})
-
-type Schema = z.output<typeof schema>
-
-const state = reactive({
-  email: undefined,
-  password: undefined,
-})
-
-async function onSubmit (event: FormSubmitEvent<Schema>) {
-
-}
+import Login from "~/components/app/LoginWindow.vue";
 </script>
 
 <template>
   <div data-aos="fade-up">
-    <UCard class="max-w-sm mx-auto" style="background-color: #212121">
-      <h1 class="text-3xl font-medium mb-4 text-center"><Icon name="heroicons:lock-closed"/> Login</h1>
-
-      <div class="flex items-center space-x-4">
-        <USkeleton class="h-12 w-12" :ui="{ rounded: 'rounded-full' }" />
-        <div class="space-y-2">
-          <USkeleton class="h-4 w-[250px]" />
-          <USkeleton class="h-4 w-[200px]" />
-        </div>
-      </div>
-      <UDivider class="my-4"/>
-      <UButton block class="mb-4" variant="outline" color="gray" to="/auth/github" external>
-        <Icon name="uil:github" /> Sign in with GitHub
-      </UButton>
-      <UDivider class="my-4" label="OR" />
-      <UForm :schema="schema" :state="state" class="space-y-4" @submit="onSubmit">
-        <UFormGroup label="Email" name="email">
-          <UInput v-model="state.email" />
-        </UFormGroup>
-
-        <UFormGroup label="Password" name="password">
-          <UInput v-model="state.password" type="password" />
-        </UFormGroup>
-        <UButton type="submit">
-          Submit
-        </UButton>
-        <UDivider class="my-4" label="OR"/>
-        <div>
-          <p style="font-size: 15px">Dont have an account yet? <NuxtLink to="/signup" style="; color: dodgerblue">sign up</NuxtLink></p>
-        </div>
-      </UForm>
-    </UCard>
+    <Login />
   </div>
 </template>
-
-<style>
-h1 {
-  color: white;
-}
-</style>

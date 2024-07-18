@@ -18,7 +18,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 h1 {
   font-size: 45px;
   font-family: "Inter", sans-serif;
