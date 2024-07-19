@@ -20,9 +20,8 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
+  <h1 class="dark:text-white text-3xl font-medium mb-4 text-center"><Icon name="heroicons:lock-closed"/> Login</h1>
   <UCard class="max-w-sm mx-auto" style="background-color: #212121">
-    <h1 class="text-3xl font-medium mb-4 text-center"><Icon name="heroicons:lock-closed"/> Login</h1>
-
     <div class="flex items-center space-x-4">
       <USkeleton class="h-12 w-12" :ui="{ rounded: 'rounded-full' }" />
       <div class="space-y-2">
@@ -56,6 +55,6 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
 
 <style scoped>
 h1 {
-  color: white;
+  color: black;
 }
 </style>

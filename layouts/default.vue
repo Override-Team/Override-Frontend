@@ -9,8 +9,9 @@ import Footer from "~/components/Footer/Footer.vue"
     <div class="px-4 flex-grow">
       <slot />
     </div>
-
-    <Footer />
+    <div data-aos="fade-up">
+      <Footer />
+    </div>
   </div>
 </template>
 
