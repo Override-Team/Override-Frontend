@@ -48,13 +48,13 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
       <UFormGroup label="Confirm Passowrd" name="conf-password">
         <UInput v-model="state.confirmpassword" type="password" />
       </UFormGroup>
-      <UButton :ui="{}" type="submit">
+      <UButton type="submit">
         Submit
       </UButton>
     </UForm>
     <UDivider class="my-4" label="OR"/>
     <div>
-      <p align="center">Already have an account? <NuxtLink to="/login" style="; color: #c084fc">login</NuxtLink></p>
+      <p align="center">Already have an account? <a><NuxtLink to="/login" style="; color: #c084fc">login</NuxtLink></a></p>
     </div>
   </UCard>
 </template>
@@ -65,5 +65,8 @@ h1 {
 }
 p {
   color: white;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>

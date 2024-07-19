@@ -47,7 +47,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
       </UButton>
       <UDivider class="my-4" label="OR"/>
       <div>
-        <p align="center">Dont have an account yet? <NuxtLink to="/signup" style="; color: #c084fc">sign up</NuxtLink></p>
+        <p align="center">Dont have an account yet? <a><NuxtLink to="/signup" style="; color: #c084fc">sign up</NuxtLink></a></p>
       </div>
     </UForm>
   </UCard>
@@ -56,5 +56,11 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
 <style scoped>
 h1 {
   color: black;
+}
+p {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
 }
 </style>
