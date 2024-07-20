@@ -11,6 +11,6 @@
 ---
 <div align="center">
   <img width="125" src="https://github.com/user-attachments/assets/f7c2d1bf-efba-4b3d-b5bc-a4d7cdcdc985">
-  <h6>Our frontend is build using NuxtJs, learn more [here](https://nuxt.com/)</h6>
+  <h6>Our frontend is build using NuxtJs, learn more <p>https://nuxt.com</p></h6>
 </div>
 
