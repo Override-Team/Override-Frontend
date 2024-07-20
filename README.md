@@ -9,7 +9,8 @@
 
 > <h6>Currently the website is not running and the Ko-fi link does not lead anywhere. That is because the project is so early in development and we have no expenses to pay at the moment</h6>
 ---
+<div align="center">
+  <img width="125" src="https://github.com/user-attachments/assets/f7c2d1bf-efba-4b3d-b5bc-a4d7cdcdc985">
+  <h6>Our frontend is build using NuxtJs, learn more [here](https://nuxt.com/)</h6>
+</div>
 
-<img width="100" src="https://github.com/user-attachments/assets/f7c2d1bf-efba-4b3d-b5bc-a4d7cdcdc985"> 
-
-> Our frontend is build using NuxtJs, learn more [here](https://nuxt.com/)
