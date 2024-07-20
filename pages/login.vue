@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import Login from "~/components/app/LoginWindow.vue";
+import {definePageMeta} from "#imports";
+definePageMeta({
+  layout: "empty",
+})
 </script>
 
 <template>
