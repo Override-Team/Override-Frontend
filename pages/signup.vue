@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SignupWindow from "~/components/app/SignupWindow.vue";
+import SignupWindow from "~/components/Account/SignupWindow.vue";
 import {definePageMeta} from "#imports";
 definePageMeta({
   layout: "empty",
