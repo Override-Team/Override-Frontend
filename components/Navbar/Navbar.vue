@@ -5,7 +5,7 @@ import NavbarSelection from "~/components/Navbar/NavbarSelection.vue";
 </script>
 
 <template>
-  <header class="mb-4" style="background-color: #212121">
+  <header class="header mb-4">
     <UContainer class="flex items-center py-4 gap-2 lg:gap-x-10">
       <Brand />
       <NavbarSelection />
@@ -15,3 +15,12 @@ import NavbarSelection from "~/components/Navbar/NavbarSelection.vue";
     </UContainer>
   </header>
 </template>
+
+<style>
+.header {
+  background-color: #121212;
+  z-index: 99;
+  position: sticky;
+  top: 0;
+}
+</style>

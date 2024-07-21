@@ -34,7 +34,7 @@
       </UContainer>
       <UContainer class="py-4 gap-2 ">
         <UDivider class="my-4"/>
-        <h1>Override</h1>
+        <NuxtLink to="/"><h1>Override</h1></NuxtLink>
       </UContainer>
     </footer>
   </div>
