@@ -15,7 +15,7 @@
           <h2>Community</h2>
           <p><NuxtLink to="/">Forums</NuxtLink></p>
           <p><NuxtLink to="https://discord.gg/3uGrFYr98n">Discord</NuxtLink></p>
-          <p><NuxtLink to="https://github.com/Vxrpenter/Override">GitHub</NuxtLink></p>
+          <p><NuxtLink to="https://github.com/Override-Team">GitHub</NuxtLink></p>
         </div>
         <div>
           <h2>Override</h2>
