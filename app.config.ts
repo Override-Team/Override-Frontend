@@ -2,11 +2,14 @@ export default defineAppConfig({
     ui: {
         strategy: 'override',
         primary: 'violet',
-        gray: '#FFFFFF',
         divider: {
             border: {
-                base: 'flex border-white-200 dark:border-white-800',
+                base: 'flex border-gray-500 dark:border-white-900',
             },
         },
+        card: {
+            shadow: '',
+            ring: 'ring-1 ring-gray-500 dark:ring-gray-900',
+        }
     }
 })

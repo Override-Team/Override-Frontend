@@ -2,8 +2,11 @@
 </script>
 
 <template>
-  <div style="background-color: #212121">
+  <div>
     <footer class="px-4 py-4 max-w-screen-xl mx-auto">
+      <UContainer >
+        <UDivider class="py-4 gap-2"/>
+      </UContainer>
       <UContainer class="flex py-4 gap-2 lg:gap-52">
         <div>
           <h2>Getting Started</h2>
