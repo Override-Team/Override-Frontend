@@ -9,7 +9,12 @@ export default defineAppConfig({
         },
         card: {
             shadow: '',
-            ring: 'ring-1 ring-gray-500 dark:ring-gray-900',
+            ring: '',
+        },
+        formGroup:  {
+            description: 'text-purple-500 dark:text-gray-400',
+            hint: 'text-gray-500 dark:text-gray-400',
+            help: 'mt-2 text-gray-500 dark:text-gray-40',
         }
     }
 })

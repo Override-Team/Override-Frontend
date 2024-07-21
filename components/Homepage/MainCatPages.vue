@@ -39,12 +39,12 @@ onUnmounted(() => {
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
           <NuxtLink to="plugins/search">
-            <UCard class="rounded-xl p-3 h-full" style="background-color: #212121">
+            <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="50" src="../../assets/logos/exiled-logo.png" alt="exiled"/>
                 <h3 class="text-3xl font-bold">Exiled Plugins</h3>
               </div>
-              <p class="text-xs py-2">Exiled plugins are plugins that run using the exiled framework that is really powerful and supports everything from custom items over custom mapping</p>
+              <p class="text-xs py-2">Exiled plugins are plugins that run using the exiled framework, that is really powerful and supports everything from custom items over custom mapping</p>
 
             </UCard>
           </NuxtLink>
@@ -54,7 +54,7 @@ onUnmounted(() => {
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
           <NuxtLink to="plugins/search">
-            <UCard class="rounded-xl p-3 h-full" style="background-color: #212121">
+            <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="60" src="../../assets/logos/nwapi-logo.png" alt="exiled"/>
                 <h3 class="text-3xl font-bold">‎ API Plugins</h3>
@@ -68,7 +68,7 @@ onUnmounted(() => {
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
           <NuxtLink to="/schematics/search">
-            <UCard class="rounded-xl p-3 h-full" style="background-color: #212121">
+            <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="60" src="../../assets/logos/schematics-logo.png" alt="exiled"/>
                 <h3 class="text-3xl font-bold">‎ Schematics</h3>
@@ -82,7 +82,7 @@ onUnmounted(() => {
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
           <NuxtLink to="/">
-            <UCard class="rounded-xl p-3 h-full" style="background-color: #212121">
+            <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <Icon size="45" name="i-heroicons-clock-16-solid"/>
                 <h3 class="text-3xl font-bold">‎ COMING SOON</h3>

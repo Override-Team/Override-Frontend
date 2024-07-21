@@ -23,7 +23,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
 
 <template>
   <h1 class="dark:text-white text-3xl font-medium mb-4 text-center"><Icon name="heroicons:lock-closed"/> Sign-up</h1>
-  <UCard class="max-w-sm mx-auto" style="background-color: #212121">
+  <UCard class="max-w-sm mx-auto" style="background-color: #171717">
     <div class="flex items-center space-x-4">
       <USkeleton class="h-12 w-12" :ui="{ rounded: 'rounded-full' }" />
       <div class="space-y-2">
