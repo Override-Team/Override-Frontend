@@ -13,9 +13,11 @@ import MainCatPages from "~/components/Homepage/MainCatPages.vue";
       </div>
       <p class="dark:text-white">Upload your projects easy and fast</p>
 
-      <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8" data-aos="fade-up">
+      <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">
         <MainCatPages />
-        <HomepageFeatures />
+        <div class="py-20">
+          <HomepageFeatures />
+        </div>
       </div>
     </div>
   </section>
