@@ -17,9 +17,11 @@
     "@nuxtjs/i18n": "^8.3.1",
     "nuxt": "^3.12.3",
     "nuxt-aos": "^1.2.5",
+    "nuxt-swiper": "^1.2.2",
     "nuxt-zod-i18n": "^1.9.0"
   },
   "devDependencies": {
+    "@iconify-json/uil": "^1.1.8",
     "@nuxtjs/color-mode": "^3.4.2",
     "sass": "^1.77.8"
   }

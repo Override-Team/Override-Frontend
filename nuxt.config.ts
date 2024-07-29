@@ -9,13 +9,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@formkit/nuxt',
     "nuxt-zod-i18n",
-    "@nuxtjs/i18n"
+    "@nuxtjs/i18n",
+    'nuxt-swiper'
   ],
-
-  ui: {
-    safelistColors: ['purple']
-  },
-
   routeRules: {
     '/': { prerender: true },
   },
