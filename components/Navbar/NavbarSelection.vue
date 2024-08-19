@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import MainCatPages from "~/components/Homepage/MainCatPages.vue";
 </script>
 
 <template>
-  <NuxtLink to="/plugins/search"><h3>Plugins</h3></NuxtLink>
-  <NuxtLink to="/schematics/search"><h3>Schematics</h3></NuxtLink>
+  <NuxtLink to="/plugins/"><h3>Plugins</h3></NuxtLink>
+  <NuxtLink to="/schematics/"><h3>Schematics</h3></NuxtLink>
 </template>
 
 <style scoped>

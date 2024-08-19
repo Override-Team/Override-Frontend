@@ -38,7 +38,7 @@ onUnmounted(() => {
              ref="wrapper"
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
-          <NuxtLink to="plugins/search">
+          <NuxtLink to="/plugins/">
             <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="50" src="../../assets/logos/exiled-logo.png" alt="exiled"/>
@@ -53,7 +53,7 @@ onUnmounted(() => {
              ref="wrapper"
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
-          <NuxtLink to="plugins/search">
+          <NuxtLink to="/plugins/">
             <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="60" src="../../assets/logos/nwapi-logo.png" alt="exiled"/>
@@ -67,7 +67,7 @@ onUnmounted(() => {
              ref="wrapper"
              class="wrapper relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44"
              style="--x: -350px; --y: -350px">
-          <NuxtLink to="/schematics/search">
+          <NuxtLink to="/schematics/">
             <UCard class="rounded-xl p-3 h-full" style="background-color: #171717">
               <div class="icon-and-text">
                 <img width="60" src="../../assets/logos/schematics-logo.png" alt="exiled"/>

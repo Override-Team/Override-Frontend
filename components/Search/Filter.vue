@@ -2,9 +2,10 @@
 </script>
 
 <template>
-  <h1>EMPTY PAGE</h1>
+  <UCard>
+    <h1>Testing bozo</h1>
+  </UCard>
 </template>
 
 <style scoped>
-
 </style>

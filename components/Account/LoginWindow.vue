@@ -30,7 +30,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
       </div>
     </div>
     <UDivider class="my-4"/>
-    <UButton block class="mb-4" variant="outline" color="gray" to="/auth/github" external>
+    <UButton block class="mb-4" variant="outline" color="gray" to="/account/auth/github" external>
       <Icon name="uil:github" /> Sign in with GitHub
     </UButton>
     <UDivider class="my-4" label="OR" />
@@ -47,7 +47,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
       </UButton>
       <UDivider class="my-4" label="OR"/>
       <div>
-        <p align="center">Dont have an account yet? <a><NuxtLink to="/signup" style="; color: #7c3aed">sign up</NuxtLink></a></p>
+        <p align="center">Dont have an account yet? <a><NuxtLink to="/account/signup" style="color: #7c3aed">sign up</NuxtLink></a></p>
       </div>
     </UForm>
   </UCard>

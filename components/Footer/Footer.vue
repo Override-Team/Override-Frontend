@@ -10,7 +10,7 @@
       <UContainer class="flex py-4 gap-2 lg:gap-52">
         <div>
           <h2>Getting Started</h2>
-          <p><NuxtLink to="/signup">Create Account</NuxtLink></p>
+          <p><NuxtLink to="/account/signup">Create Account</NuxtLink></p>
           <p><NuxtLink to="/docs">Read the Documentation</NuxtLink></p>
           <p><NuxtLink to="/">Explore Projects</NuxtLink></p>
         </div>
@@ -22,14 +22,14 @@
         </div>
         <div>
           <h2>Override</h2>
-          <p><NuxtLink to="/">About Us</NuxtLink></p>
-          <p><NuxtLink to="/">Our Team</NuxtLink></p>
+          <p><NuxtLink to="/about-us">About Us</NuxtLink></p>
+          <p><NuxtLink to="/out-team">Our Team</NuxtLink></p>
         </div>
         <div>
           <h2>Terms</h2>
           <p><NuxtLink to="/terms">Terms</NuxtLink></p>
           <p><NuxtLink to="/">Privacy Policy</NuxtLink></p>
-          <p><NuxtLink to="/">Community Guidelines</NuxtLink></p>
+          <p><NuxtLink to="/guidelines">Community Guidelines</NuxtLink></p>
         </div>
       </UContainer>
       <UContainer class="py-4 gap-2 ">
