@@ -24,6 +24,7 @@
           </div>
           <div data-aos="fade-down-right">
             <div class="w-12 h-12 mx-auto bg-primary/10 text-primary-600 rounded-full flex items-center justify-center">
+
               <UIcon name="i-heroicons-code-bracket-square-16-solid" class="h-6 w-6 text-primary" />
             </div>
             <h4 class="text-lg  font-semibold">Get Community Feedback</h4>
