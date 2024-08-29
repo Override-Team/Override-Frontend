@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import MainCatPages from "~/components/Homepage/MainCatPages.vue";
+import MainCatPages from "~/components/Homepage/CategoryShowcase.vue";
 </script>
 
 <template>
   <section>
     <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">
-      <div data-aos="fade-up">
+      <div>
         <div class="py-1 space-y-5 max-w-4xl mx-auto text-center">
           <h1>Override</h1>
         </div>

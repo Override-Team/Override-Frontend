@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import MainCatPages from "~/components/Homepage/MainCatPages.vue";
 </script>
 
 <template>
