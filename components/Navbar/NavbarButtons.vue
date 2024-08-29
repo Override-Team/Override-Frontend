@@ -4,9 +4,7 @@
 <template>
   <NuxtLink class="icon_hover" to="https://github.com/Override-Team"><Icon size="25" name="i-bxl-github"/></NuxtLink>
   <NuxtLink class="icon_hover" to="https://discord.gg/cAXU9Y7T9a"><Icon size="25" name="i-bxl-discord-alt"/></NuxtLink>
-  <NuxtLink to="/account/signup" class="block py-2 px-4 text-white font-medium bg-primary-600 duration-150 hover:bg-primary-500 active:bg-primary-700 rounded-lg shadow-lg hover:shadow-none">
-    Sign Up
-  </NuxtLink>
+  <UButton to="/account/login" label="Sign In" leading-icon="i-heroicons-user-16-solid" variant="solid" color="primary" size="md"/>
 </template>
 
 <style scoped>
