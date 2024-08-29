@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Filter from "~/components/Search/Filter.vue";
+import Filter from "~/components/Search/FilterPlugins.vue";
 </script>
 
 <template>
@@ -16,7 +16,7 @@ import Filter from "~/components/Search/Filter.vue";
           <template #panel>
             <Filter />
           </template>
-          <UButton  color="gray" icon="i-heroicons-list-bullet-16-solid" variant="none" label="Filter" size="lg" @click=""/>
+          <UButton  color="gray" icon="i-heroicons-list-bullet-16-solid" variant="link" label="Filter" size="lg" @click=""/>
         </UPopover>
       </template>
     </UInput>
