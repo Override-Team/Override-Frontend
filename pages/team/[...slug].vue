@@ -7,7 +7,7 @@
       <UCard class="rounded-xl" style="background-color: #171717; width: 550px;">
         <div class="icon-and-text">
           <img width="80" src="../../assets/team-pics/vxrpenter.png" alt="vxrpenter"/>
-          <h1>Vxrpenter</h1>
+          <h1 class="px-3">Vxrpenter</h1>
         </div>
         <div class="py-1">
           <h2>Job at Overrite</h2>
@@ -27,7 +27,7 @@
       <UCard class="rounded-xl" style="background-color: #171717; width: 550px;">
         <div class="icon-and-text">
           <img width="80" src="../../assets/team-pics/fox.gif" alt="fox"/>
-          <h1>FoxWorn</h1>
+          <h1 class="px-3">FoxWorn</h1>
         </div>
         <div class="py-1">
           <h2>Job at Overrite</h2>
@@ -70,5 +70,8 @@ p {
 .icon-and-text {
   display: flex;
   align-items: center;
+}
+img {
+  border-radius: 50%;
 }
 </style>
