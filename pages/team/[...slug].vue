@@ -31,7 +31,7 @@
         </div>
         <div class="py-1">
           <h2>Job at Overrite</h2>
-          <p>- Backend Developer</p>
+          <h3>- Backend Developer</h3>
         </div>
         <div class="py-1">
           <UDivider/>
