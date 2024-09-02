@@ -12,7 +12,7 @@
           <h2>Getting Started</h2>
           <p><NuxtLink to="/account/signup">Create Account</NuxtLink></p>
           <p><NuxtLink to="/docs">Read the Documentation</NuxtLink></p>
-          <p><NuxtLink to="/">Explore Projects</NuxtLink></p>
+          <p><NuxtLink to="/plugins">Explore Projects</NuxtLink></p>
         </div>
         <div>
           <h2>Community</h2>
@@ -23,7 +23,7 @@
         <div>
           <h2>Override</h2>
           <p><NuxtLink to="/about-us">About Us</NuxtLink></p>
-          <p><NuxtLink to="/out-team">Our Team</NuxtLink></p>
+          <p><NuxtLink to="/team">Our Team</NuxtLink></p>
         </div>
         <div>
           <h2>Terms</h2>

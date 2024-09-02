@@ -12,7 +12,7 @@ import Pagination from "~/components/Search/Pagination.vue";
       <!--- # IMPORTANT # -->
       <!--- This is only a testing showcase, scheduled for removal -->
       <!--- # IMPORTANT # -->
-      <div class="grid grid-cols-3 gap-6 ">
+      <div class="grid grid-cols-3 gap-6">
         <div class="m-1.5 relative z-10 rounded-xl overflow-hidden p-[2px] hover:bg-[#7c3aed] transition-colors duration-300 w-full h-44">
           <UCard class="rounded-xl p-3 h-full" style="background-color: #171717"/>
         </div>

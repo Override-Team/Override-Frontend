@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import MainCatPages from "~/components/Homepage/CategoryShowcase.vue";
 </script>
 
 <template>
@@ -16,7 +15,6 @@ import MainCatPages from "~/components/Homepage/CategoryShowcase.vue";
         <UButton to="/account/signup" label="Sign Up" leading-icon="i-heroicons-user-16-solid" variant="solid" color="primary" size="md"/>
       </div>
       <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">
-        <MainCatPages />
       </div>
     </div>
   </section>
