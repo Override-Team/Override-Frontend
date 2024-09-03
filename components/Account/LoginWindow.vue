@@ -34,15 +34,17 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
       <Icon name="uil:github" /> Sign in with GitHub
     </UButton>
     <UDivider class="my-4" label="OR" />
+    <div class="text-center">
+      <h2>Currently not available</h2>
+    </div>
     <UForm :schema="schema" :state="state" class="space-y-4" @submit="onSubmit">
-      <UFormGroup label="Email" name="email">
-        <UInput v-model="state.email" />
+      <UFormGroup label="Email" name="email" disabled>
+        <UInput disabled v-model="state.email" />
       </UFormGroup>
-
       <UFormGroup label="Password" name="password">
-        <UInput v-model="state.password" type="password" />
+        <UInput disabled v-model="state.password" type="password" />
       </UFormGroup>
-      <UButton type="submit">
+      <UButton disabled type="submit">
         Submit
       </UButton>
       <UDivider class="my-4" label="OR"/>
@@ -56,6 +58,12 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
 <style scoped>
 h1 {
   color: black;
+}
+h2 {
+  color: #AD210A;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 p {
   color: white;
