@@ -16,7 +16,7 @@ import Filter from "~/components/Search/FilterPlugins.vue";
           <template #panel>
             <Filter />
           </template>
-          <UButton  color="gray" icon="i-heroicons-list-bullet-16-solid" variant="link" label="Filter" size="lg" @click=""/>
+          <UButton color="gray" icon="i-heroicons-list-bullet-16-solid" variant="link" label="Filter" size="lg" @click=""/>
         </UPopover>
       </template>
     </UInput>
