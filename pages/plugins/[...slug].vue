@@ -37,7 +37,7 @@ const projects = [
 
                       </UCard>
                     </template>
-                    <UButton id="expand" color="gray" icon="i-heroicons-list-bullet-16-solid" variant="link" size="lg" @click=""/>
+                    <UButton id="expand" color="gray" icon="i-heroicons-bars-3-bottom-left-16-solid" variant="link" size="lg" @click=""/>
                   </UPopover>
                 </div>
                 <div>
@@ -52,9 +52,12 @@ const projects = [
                   </div>
                 </div>
                 <div class="flex float-right">
-                  <p class="px-1" id="loaders">Loaders</p>
-                  <img v-show="item.loader_exiled" id="loaders_exiled" src="../../assets/logos/exiled-logo.png" alt="exiled"/>
-                  <img v-show="item.loader_nwapi" id="loaders_nwapi" src="../../assets/logos/nwapi-logo.png" alt="nwapi"/>
+                  <div v-show="item.loader_exiled" class="flex px-1">
+                    <img id="loaders_exiled" src="../../assets/logos/exiled-logo.png" alt="exiled"/><p id="loaders_exiled_txt">Exiled</p>
+                  </div>
+                  <div v-show="item.loader_nwapi" class="flex">
+                    <img id="loaders_nwapi" src="../../assets/logos/nwapi-logo.png" alt="nwapi"/><p id="loaders_nwapi_txt">API</p>
+                  </div>
                 </div>
               </UCard>
             </NuxtLink>
@@ -87,8 +90,8 @@ h1 {
   transition: 0.6s;
 }
 #expand {
-  margin-top: -27px;
-  right: -20px;
+  margin-top: -23px;
+  right: 40px;
   position: absolute;
 }
 #icon {
@@ -133,8 +136,11 @@ h1 {
   margin-top: 137px;
   position: relative;
 }
-#loaders {
-  font-weight: bold;
+#loaders_exiled_txt{
+  margin-top: 133px;
+  position: relative;
+}
+#loaders_nwapi_txt{
   margin-top: 133px;
   position: relative;
 }
