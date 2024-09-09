@@ -10,10 +10,10 @@ const selectedSLVersion = ref()
     </UCard>
     <div class="ms-5 py-1">
       <div class="flex">
-        <UCheckbox color="primary" class="px-1"/> <img id="loaders_exiled" src="../../assets/logos/exiled-logo.png" alt="exiled"/> <p id="align_text">Exiled</p>
+        <UCheckbox color="primary" class="px-1"/> <NuxtImg id="loaders_exiled" src="/logos/exiled-logo.png"/> <p id="align_text">Exiled</p>
       </div>
       <div class="flex">
-        <UCheckbox color="primary" class="px-1"/> <img id="loaders_nwapi" src="../../assets/logos/nwapi-logo.png" alt="nwapi"/> <p class="px-1" id="align_text">API</p>
+        <UCheckbox color="primary" class="px-1"/> <NuxtImg id="loaders_nwapi" src="/logos/nwapi-logo.png"/> <p class="px-1" id="align_text">API</p>
       </div>
     </div>
     <UDivider class="py-4"/>
