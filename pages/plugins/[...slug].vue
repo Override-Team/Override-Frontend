@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Pagination from "~/components/Search/Pagination.vue";
 
-
+const icon = 'exiled-logo.png';
 
 const projects = [
   {
     project_id: 1, //The id the project is saved an accessed under
-    icon: '../../assets/logos/exiled-logo.png', //Later location or smth. else of the icon (in the db)
+    icon: '/logos/exiled-logo.png', //Later location or smth. else of the icon (in the db)
     title: 'Example Plugin', //Limit for title length - 25
     author: 'Example User', //Author of the plugin
     description: 'A small plugin for things and other things that does things and things and so on, lets get max leght here', //Limit for the description - 100
@@ -23,7 +23,6 @@ const projects = [
     <UContainer>
       <div>
         <Search/>
-        <Pagination/>
       </div>
       <section class="grid grid-cols-3 gap-6">
         <div v-for="(item, index) in projects" :key="index">
@@ -41,7 +40,8 @@ const projects = [
                   </UPopover>
                 </div>
                 <div>
-                  <img id="icon" src="../../assets/team-pics/fox.gif" alt="icon">
+
+                  <NuxtImg id="icon" format="webp" :src="item.icon"/>
                   <h1 id="title" class="pluginTitle">{{item.title}}</h1>
                   <UButton id="author" variant="link" size="lg" color="gray">by {{item.author}}</UButton>
                 </div>
@@ -53,10 +53,10 @@ const projects = [
                 </div>
                 <div class="flex float-right">
                   <div v-show="item.loader_exiled" class="flex px-1">
-                    <img id="loaders_exiled" src="../../assets/logos/exiled-logo.png" alt="exiled"/><p id="loaders_exiled_txt">Exiled</p>
+                    <NuxtImg id="loaders_exiled"  src="/logos/exiled-logo.png"/><p id="loaders_exiled_txt">Exiled</p>
                   </div>
                   <div v-show="item.loader_nwapi" class="flex">
-                    <img id="loaders_nwapi" src="../../assets/logos/nwapi-logo.png" alt="nwapi"/><p id="loaders_nwapi_txt">API</p>
+                    <NuxtImg id="loaders_nwapi"  src="/logos/nwapi-logo.png"/><p id="loaders_nwapi_txt">API</p>
                   </div>
                 </div>
               </UCard>
@@ -66,6 +66,9 @@ const projects = [
       </section>
     </UContainer>
   </section>
+  <div>
+    <Pagination/>
+  </div>
 </template>
 
 <style scoped>
