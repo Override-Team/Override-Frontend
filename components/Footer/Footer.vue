@@ -32,10 +32,19 @@
           <p><NuxtLink to="/guidelines">Community Guidelines</NuxtLink></p>
         </div>
       </UContainer>
-      <UContainer class="py-4 gap-2 ">
+      <UContainer>
         <UDivider class="my-4"/>
-        <NuxtLink to="/"><h1>Override</h1></NuxtLink>
       </UContainer>
+      <div class="">
+        <UContainer class="py-4 gap-2 ">
+          <div class="float-left">
+            <NuxtLink to="/"><h1 id="align_text">Override</h1></NuxtLink>
+          </div>
+          <div class="float-right">
+            <NuxtLink to="/licencing"><p id="align_text">© 2024 Override-Team</p></NuxtLink>
+          </div>
+        </UContainer>
+      </div>
     </footer>
   </div>
 
@@ -59,7 +68,9 @@ p {
   color: gray;
   font-size: 14px;
 }
-
+#align_text {
+  margin-top: -20px;
+}
 p:hover {
   text-decoration: underline;
 }
